@@ -1,7 +1,7 @@
 # 汇诚包装关联系统V3.0
 
- **上线主域名**：https://26-fj-hc-sys-trade.softwarelink.net/
- **项目仓库**：https://github.com/softwarelink-net/26-fj-hc-sys-trade
+ - **上线主域名**：https://26-fj-hc-sys-trade.softwarelink.net/
+ - **项目仓库**：https://github.com/softwarelink-net/26-fj-hc-sys-trade
 
 ![控制台预览](docs/assets/dashboard-preview.png)
 

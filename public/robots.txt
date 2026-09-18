@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://26-fj-hc-sys-trade.softwarelink.net/sitemap.xml

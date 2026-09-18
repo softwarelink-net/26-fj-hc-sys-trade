@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="#0a1628"/>
+  <rect x="12" y="12" width="96" height="96" rx="18" fill="#0f2744"/>
+  <path d="M32 78V42l28-16 28 16v36l-28 16-28-16z" stroke="#14b8a6" stroke-width="4" fill="none"/>
+  <path d="M60 26v68M32 42l28 16 28-16" stroke="#22d3ee" stroke-width="3" opacity="0.9"/>
+  <text x="60" y="108" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">GÚ</text>
+</svg>

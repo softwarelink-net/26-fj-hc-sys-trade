@@ -1,0 +1,41 @@
+{
+  "name": "26-fj-hc-sys-trade",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "vue-tsc --noEmit",
+    "type-check": "vue-tsc --noEmit",
+    "db:init": "node scripts/init-db.mjs",
+    "upload:r2": "node scripts/deploy-allworld.mjs 26-fj-hc-sys-trade",
+    "deploy": "npm run build && node scripts/deploy-allworld.mjs 26-fj-hc-sys-trade",
+    "screenshot": "node scripts/screenshot-dashboard.mjs"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.4.0",
+    "echarts": "^6.1.0",
+    "md5": "^2.3.0",
+    "pinia": "^4.0.3",
+    "sql.js": "^1.14.2",
+    "vue": "^3.5.12",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/md5": "^2.3.6",
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.21",
+    "better-sqlite3": "^11.10.0",
+    "playwright": "^1.55.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8",
+    "wrangler": "^4.129.0"
+  }
+}
